@@ -8,6 +8,9 @@
 import Foundation
 import SwiftUI
 
+
+// 스위프트 유아이 .
+
 @available(iOS 13.0, *)
 extension MoviesQueryListItemViewModel: Identifiable { }
 

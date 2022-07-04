@@ -36,6 +36,7 @@ final class MoviesListViewController: UIViewController, StoryboardInstantiable, 
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("viewDidLoad=>:MoviesListViewController")
         setupViews()
         setupBehaviours()
         bind(to: viewModel)
