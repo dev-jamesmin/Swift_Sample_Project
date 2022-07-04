@@ -11,7 +11,7 @@ import SwiftUI
 
 
 
-//PersistentStorages -> 영구 저장소
+//PersistentStorages -> 영구 저장소 번역기
 
 final class MoviesSceneDIContainer {
     

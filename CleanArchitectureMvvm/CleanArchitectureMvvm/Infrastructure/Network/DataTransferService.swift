@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+// 데이터 교환 관련 프로토콜 모음
 public enum DataTransferError: Error {
     case noResponse
     case parsing(Error)
