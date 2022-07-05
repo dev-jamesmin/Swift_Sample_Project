@@ -19,6 +19,7 @@ protocol ViewControllerLifecycleBehavior {
     func viewDidLayoutSubviews(viewController: UIViewController)
 }
 // Default implementations
+// 프로토콜의 익스텐션???
 extension ViewControllerLifecycleBehavior {
     func viewDidLoad(viewController: UIViewController) {}
     func viewWillAppear(viewController: UIViewController) {}

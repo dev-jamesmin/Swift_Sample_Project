@@ -9,7 +9,8 @@
 import UIKit
 
 extension UITableViewController {
-
+    // 인디케이터
+    // 듀플리케이티드.
     func makeActivityIndicator(size: CGSize) -> UIActivityIndicatorView {
         let style: UIActivityIndicatorView.Style
         if #available(iOS 12.0, *) {

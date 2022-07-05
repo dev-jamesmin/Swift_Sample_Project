@@ -9,20 +9,29 @@
 import UIKit
 
 // 셀 아이템 -> 코드 로만 그리는가?
+// 스토리 보드에 셀 존재 한다.
+
 final class MoviesListItemCell: UITableViewCell {
 
+    // 아이템셀 아이덴티 파이어
     static let reuseIdentifier = String(describing: MoviesListItemCell.self)
+    // 높이 설정
     static let height = CGFloat(130)
 
+    // 항목별 아웃렛 반드시 ! 처리
     @IBOutlet private var titleLabel: UILabel!
     @IBOutlet private var dateLabel: UILabel!
     @IBOutlet private var overviewLabel: UILabel!
     @IBOutlet private var posterImageView: UIImageView!
 
+    // 뷰모델
     private var viewModel: MoviesListItemViewModel!
     private var posterImagesRepository: PosterImagesRepository?
+    
+//    태스크.. 이해 필요
     private var imageLoadTask: Cancellable? { willSet { imageLoadTask?.cancel() } }
 
+    // 콘피그 대신 필로 .
     func fill(with viewModel: MoviesListItemViewModel, posterImagesRepository: PosterImagesRepository?) {
         self.viewModel = viewModel
         self.posterImagesRepository = posterImagesRepository

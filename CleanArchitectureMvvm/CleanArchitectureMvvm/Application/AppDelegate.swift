@@ -41,6 +41,9 @@ import UIKit
 //
 //}
 
+
+// 메인과 어플리케이션 메인의 차이는??
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
