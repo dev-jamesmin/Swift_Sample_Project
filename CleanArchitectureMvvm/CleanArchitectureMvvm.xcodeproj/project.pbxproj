@@ -74,6 +74,7 @@
 		63F1633B2872CDA50062DE78 /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1633A2872CDA50062DE78 /* AppFlowCoordinator.swift */; };
 		63F1633F2872D18F0062DE78 /* MoviesListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F1633E2872D18F0062DE78 /* MoviesListViewController.storyboard */; };
 		63F163412873F7430062DE78 /* MoviesQueriesTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F163402873F7430062DE78 /* MoviesQueriesTableViewController.storyboard */; };
+		63F1634328741D760062DE78 /* MovieDetailsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F1634228741D760062DE78 /* MovieDetailsViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +166,7 @@
 		63F1633A2872CDA50062DE78 /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
 		63F1633E2872D18F0062DE78 /* MoviesListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MoviesListViewController.storyboard; sourceTree = "<group>"; };
 		63F163402873F7430062DE78 /* MoviesQueriesTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MoviesQueriesTableViewController.storyboard; sourceTree = "<group>"; };
+		63F1634228741D760062DE78 /* MovieDetailsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieDetailsViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -578,6 +580,7 @@
 			isa = PBXGroup;
 			children = (
 				63F1630F286D99300062DE78 /* MovieDetailsViewController.swift */,
+				63F1634228741D760062DE78 /* MovieDetailsViewController.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -760,6 +763,7 @@
 				63F1633F2872D18F0062DE78 /* MoviesListViewController.storyboard in Resources */,
 				63F1626F286D27200062DE78 /* LaunchScreen.storyboard in Resources */,
 				63F163412873F7430062DE78 /* MoviesQueriesTableViewController.storyboard in Resources */,
+				63F1634328741D760062DE78 /* MovieDetailsViewController.storyboard in Resources */,
 				63F1626C286D27200062DE78 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
